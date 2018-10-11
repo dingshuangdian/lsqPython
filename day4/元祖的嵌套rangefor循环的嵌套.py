@@ -25,6 +25,26 @@ print(tu)
 s = 'lsq'
 s1 = '_'.join(s)
 print(s1)
-
+# 列表转换成字符串 join 字符串转换成列表用split()
 l = ['123', 'abc', 'dsd', 'easton']
 print(''.join(l))
+
+# range(按顺序排列的数字的列表)顾头不顾尾
+for i in range(0, 10):
+    print(i)
+for i in range(3, 10, 2):
+    print(i)
+for i in range(10, 0, -1):
+    print(i)
+
+for i in range(0, -10, -1):
+    print(i)
+
+li = [1, 2, 3, 4, 5, 'lsq', [12, 3, 5, 6, 'sds'], 'lvp']
+
+for i in li:
+    if isinstance(i, list):
+        for ii in i:
+            print(ii)
+    else:
+        print(i)
