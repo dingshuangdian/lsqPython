@@ -14,3 +14,8 @@ from day27.work.core import main
 
 if __name__ == '__main__':
     main.main()
+
+# start文件
+# 配置文件怎么用
+# 登录成功之后使用反射来获取身份对应的类
+# 经常会用的功能的封装:MyPickle类
